@@ -23,7 +23,7 @@
 									else
 									{echo'Q1- <span style=color:blue>Nill</span>';}
 
-									echo '<br>';
+									
 
 							?> 
 								</td>

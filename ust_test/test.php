@@ -36,16 +36,17 @@ if(isset($_SESSION['ust_id']))
 		<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
 		<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 		<![endif]-->
-	
 
 
-	</head>
- 
-	<body>
-	
-		
-		
-		
+
+
+
+
+
+<script>
+
+</script>
+
 		<!--
 		===========================================================
 		BEGIN PAGE
@@ -88,108 +89,61 @@ if(isset($_SESSION['ust_id']))
 							  </div>
 							
 							<ul class="pagination block-color">
-								  <li class="active"><a href="#panel-home-1" data-toggle="tab">1</a></li>
-								  <li><a href="#panel-home-2" data-toggle="tab">2</a></li>
-								  <li><a href="#panel-home-3" data-toggle="tab">3</a></li>
-								  <li><a href="#panel-home-4" data-toggle="tab">4</a></li>
-								  <li><a href="#panel-home-5" data-toggle="tab">5</a></li>
-								  <li><a href="#panel-home-6" data-toggle="tab">6</a></li>
-								  <li><a href="#panel-home-7" data-toggle="tab">7</a></li>
-								  <li><a href="#panel-home-8" data-toggle="tab">8</a></li>
-								  <li><a href="#panel-home-9" data-toggle="tab">9</a></li>
-								  <li><a href="#panel-home-10" data-toggle="tab">10</a></li>
-								  <li><a href="#panel-home-11" data-toggle="tab">11</a></li>
-								  <li><a href="#panel-home-12" data-toggle="tab">12</a></li>
-								  <li><a href="#panel-home-13" data-toggle="tab">13</a></li>
-								  <li><a href="#panel-home-14" data-toggle="tab">14</a></li>
-								  <li><a href="#panel-home-15" data-toggle="tab">15</a></li>
-								  <li><a href="#panel-home-16" data-toggle="tab">16</a></li>
-								  <li><a href="#panel-home-17" data-toggle="tab">17</a></li>
-								  <li><a href="#panel-home-18" data-toggle="tab">18</a></li>
-								  <li><a href="#panel-home-19" data-toggle="tab">19</a></li>
-								  <li><a href="#panel-home-20" data-toggle="tab">20</a></li>
-								  <li><a href="#panel-home-21" data-toggle="tab">21</a></li>
-								  <li><a href="#panel-home-22" data-toggle="tab">22</a></li>
-								  <li><a href="#panel-home-23" data-toggle="tab">23</a></li>
-								  <li><a href="#panel-home-24" data-toggle="tab">24</a></li>
-								  <li><a href="#panel-home-25" data-toggle="tab">25</a></li>
-								  <li><a href="#panel-home-26" data-toggle="tab">26</a></li>
-								  <li><a href="#panel-home-27" data-toggle="tab">27</a></li>
-								  <li><a href="#panel-home-28" data-toggle="tab">28</a></li>
-								  <li><a href="#panel-home-29" data-toggle="tab">29</a></li>
-								  <li><a href="#panel-home-30" data-toggle="tab">30</a></li>
-								  <li><a href="#panel-home-31" data-toggle="tab">31</a></li>
-								  <li><a href="#panel-home-32" data-toggle="tab">32</a></li>
-								  <li><a href="#panel-home-33" data-toggle="tab">33</a></li>
-								  <li><a href="#panel-home-34" data-toggle="tab">34</a></li>
-								  <li><a href="#panel-home-35" data-toggle="tab">35</a></li>
-								  <li><a href="#panel-home-36" data-toggle="tab">36</a></li>
-								  <li><a href="#panel-home-37" data-toggle="tab">37</a></li>
-								  <li><a href="#panel-home-38" data-toggle="tab">38</a></li>
-								  <li><a href="#panel-home-39" data-toggle="tab">39</a></li>
-								  <li><a href="#panel-home-40" data-toggle="tab">40</a></li>
-								  <li><a href="#panel-home-41" data-toggle="tab">41</a></li>
-								  <li><a href="#panel-home-42" data-toggle="tab">42</a></li>
-								  <li><a href="#panel-home-43" data-toggle="tab">43</a></li>
-								  <li><a href="#panel-home-44" data-toggle="tab">44</a></li>
-								  <li><a href="#panel-home-45" data-toggle="tab">45</a></li>
-								  <li><a href="#panel-home-46" data-toggle="tab">46</a></li>
-								  <li><a href="#panel-home-47" data-toggle="tab">47</a></li>
-								  <li><a href="#panel-home-48" data-toggle="tab">48</a></li>
-								  <li><a href="#panel-home-49" data-toggle="tab">49</a></li>
-								  <li><a href="#panel-home-50" data-toggle="tab">50</a></li>
-								  <li><a href="#panel-home-51" data-toggle="tab">51</a></li>
-								  <li><a href="#panel-home-52" data-toggle="tab">52</a></li>
-								  <li><a href="#panel-home-53" data-toggle="tab">53</a></li>
-								  <li><a href="#panel-home-54" data-toggle="tab">54</a></li>
-								  <li><a href="#panel-home-55" data-toggle="tab">55</a></li>
-								  <li><a href="#panel-home-56" data-toggle="tab">56</a></li>
-								  <li><a href="#panel-home-57" data-toggle="tab">57</a></li>
-								  <li><a href="#panel-home-58" data-toggle="tab">58</a></li>
-								  <li><a href="#panel-home-59" data-toggle="tab">59</a></li>
-								  <li><a href="#panel-home-60" data-toggle="tab">60</a></li>
-								  <li><a href="#panel-home-61" data-toggle="tab">61</a></li>
-								  <li><a href="#panel-home-62" data-toggle="tab">62</a></li>
-								  <li><a href="#panel-home-63" data-toggle="tab">63</a></li>
-								  <li><a href="#panel-home-64" data-toggle="tab">64</a></li>
-								  <li><a href="#panel-home-65" data-toggle="tab">65</a></li>
-								  <li><a href="#panel-home-66" data-toggle="tab">66</a></li>
-								  <li><a href="#panel-home-67" data-toggle="tab">67</a></li>
-								  <li><a href="#panel-home-68" data-toggle="tab">68</a></li>
-								  <li><a href="#panel-home-69" data-toggle="tab">69</a></li>
-								  <li><a href="#panel-home-70" data-toggle="tab">70</a></li>
-								  <li><a href="#panel-home-71" data-toggle="tab">71</a></li>
-								  <li><a href="#panel-home-72" data-toggle="tab">72</a></li>
-								  <li><a href="#panel-home-73" data-toggle="tab">73</a></li>
-								  <li><a href="#panel-home-74" data-toggle="tab">74</a></li>
-								  <li><a href="#panel-home-75" data-toggle="tab">75</a></li>
-								  <li><a href="#panel-home-76" data-toggle="tab">76</a></li>
-								  <li><a href="#panel-home-77" data-toggle="tab">77</a></li>
-								  <li><a href="#panel-home-78" data-toggle="tab">78</a></li>
-								  <li><a href="#panel-home-79" data-toggle="tab">79</a></li>
-								  <li><a href="#panel-home-80" data-toggle="tab">80</a></li>
-								  <li><a href="#panel-home-81" data-toggle="tab">81</a></li>
-								  <li><a href="#panel-home-82" data-toggle="tab">82</a></li>
-								  <li><a href="#panel-home-83" data-toggle="tab">83</a></li>
-								  <li><a href="#panel-home-84" data-toggle="tab">84</a></li>
-								  <li><a href="#panel-home-85" data-toggle="tab">85</a></li>
-								  <li><a href="#panel-home-86" data-toggle="tab">86</a></li>
-								  <li><a href="#panel-home-87" data-toggle="tab">87</a></li>
-								  <li><a href="#panel-home-88" data-toggle="tab">88</a></li>
-								  <li><a href="#panel-home-89" data-toggle="tab">89</a></li>
-								  <li><a href="#panel-home-90" data-toggle="tab">90</a></li>
-								  <li><a href="#panel-home-91" data-toggle="tab">91</a></li>
-								  <li><a href="#panel-home-92" data-toggle="tab">92</a></li>
-								  <li><a href="#panel-home-93" data-toggle="tab">93</a></li>
-								  <li><a href="#panel-home-94" data-toggle="tab">94</a></li>
-								  <li><a href="#panel-home-95" data-toggle="tab">95</a></li>
-								  <li><a href="#panel-home-96" data-toggle="tab">96</a></li>
-								  <li><a href="#panel-home-97" data-toggle="tab">97</a></li>
-								  <li><a href="#panel-home-98" data-toggle="tab">98</a></li>
-								  <li><a href="#panel-home-99" data-toggle="tab">99</a></li>
-								  <li><a href="#panel-home-100" data-toggle="tab">100</a></li>
+								  <ul class="pagination block-color">
+								  <li><a href="#panel-home-1" data-toggle="tab"><span id="demo1" >1</span></a></li>
+								  <li><a href="#panel-home-2" data-toggle="tab"><span id="demo2" >2</span></a></li>
+								  <li><a href="#panel-home-3" data-toggle="tab"><span id="demo3" >3</span></a></li>
+								  <li><a href="#panel-home-4" data-toggle="tab"><span id="demo4" >4</span></a></li>
+								  <li><a href="#panel-home-5" data-toggle="tab"><span id="demo5" >5</span></a></li>
+								  <li><a href="#panel-home-6" data-toggle="tab"><span id="demo6" >6</span></a></li>
+								  <li><a href="#panel-home-7" data-toggle="tab"><span id="demo7" >7</span></a></li>
+								  <li><a href="#panel-home-8" data-toggle="tab"><span id="demo8" >8</span></a></li>
+								  <li><a href="#panel-home-9" data-toggle="tab"><span id="demo9" >9</span></a></li>
+								  <li><a href="#panel-home-10" data-toggle="tab"><span id="demo10" >10</span></a></li>
+								  <li><a href="#panel-home-11" data-toggle="tab"><span id="demo11" >11</span></a></li>
+								  <li><a href="#panel-home-12" data-toggle="tab"><span id="demo12" >12</span></a></li>
+								  <li><a href="#panel-home-13" data-toggle="tab"><span id="demo13" >13</span></a></li>
+								  <li><a href="#panel-home-14" data-toggle="tab"><span id="demo14" >14</span></a></li>
+								  <li><a href="#panel-home-15" data-toggle="tab"><span id="demo15" >15</span></a></li>
+								  <li><a href="#panel-home-16" data-toggle="tab"><span id="demo16" >16</span></a></li>
+								  <li><a href="#panel-home-17" data-toggle="tab"><span id="demo17" >17</span></a></li>
+								  <li><a href="#panel-home-18" data-toggle="tab"><span id="demo18" >18</span></a></li>
+								  <li><a href="#panel-home-19" data-toggle="tab"><span id="demo19" >19</span></a></li>
+								  <li><a href="#panel-home-20" data-toggle="tab"><span id="demo20" >20</span></a></li>
+								  <li><a href="#panel-home-21" data-toggle="tab"><span id="demo21" >21</span></a></li>
+								  <li><a href="#panel-home-22" data-toggle="tab"><span id="demo22" >22</span></a></li>
+								  <li><a href="#panel-home-23" data-toggle="tab"><span id="demo23" >23</span></a></li>
+								  <li><a href="#panel-home-24" data-toggle="tab"><span id="demo24" >24</span></a></li>
+								  <li><a href="#panel-home-25" data-toggle="tab"><span id="demo25" >25</span></a></li>
+								  <li><a href="#panel-home-26" data-toggle="tab"><span id="demo26" >26</span></a></li>
+								  <li><a href="#panel-home-27" data-toggle="tab"><span id="demo27" >27</span></a></li>
+								  <li><a href="#panel-home-28" data-toggle="tab"><span id="demo28" >28</span></a></li>
+								  <li><a href="#panel-home-29" data-toggle="tab"><span id="demo29" >29</span></a></li>
+								  <li><a href="#panel-home-30" data-toggle="tab"><span id="demo30" >30</span></a></li>
+								  <li><a href="#panel-home-31" data-toggle="tab"><span id="demo31" >31</span></a></li>
+								  <li><a href="#panel-home-32" data-toggle="tab"><span id="demo32" >32</span></a></li>
+								  <li><a href="#panel-home-33" data-toggle="tab"><span id="demo33" >33</span></a></li>
+								  <li><a href="#panel-home-34" data-toggle="tab"><span id="demo34" >34</span></a></li>
+								  <li><a href="#panel-home-35" data-toggle="tab"><span id="demo35" >35</span></a></li>
+								  <li><a href="#panel-home-36" data-toggle="tab"><span id="demo36" >36</span></a></li>
+								  <li><a href="#panel-home-37" data-toggle="tab"><span id="demo37" >37</span></a></li>
+								  <li><a href="#panel-home-38" data-toggle="tab"><span id="demo38" >38</span></a></li>
+								  <li><a href="#panel-home-39" data-toggle="tab"><span id="demo39" >39</span></a></li>
+								  <li><a href="#panel-home-40" data-toggle="tab"><span id="demo40" >40</span></a></li>
+								  <li><a href="#panel-home-41" data-toggle="tab"><span id="demo41" >41</span></a></li>
+								  <li><a href="#panel-home-42" data-toggle="tab"><span id="demo42" >42</span></a></li>
+								  <li><a href="#panel-home-43" data-toggle="tab"><span id="demo43" >43</span></a></li>
+								  <li><a href="#panel-home-44" data-toggle="tab"><span id="demo44" >44</span></a></li>
+								  <li><a href="#panel-home-45" data-toggle="tab"><span id="demo45" >45</span></a></li>
+								  <li><a href="#panel-home-46" data-toggle="tab"><span id="demo46" >46</span></a></li>
+								  <li><a href="#panel-home-47" data-toggle="tab"><span id="demo47" >47</span></a></li>
+								  <li><a href="#panel-home-48" data-toggle="tab"><span id="demo48" >48</span></a></li>
+								  <li><a href="#panel-home-49" data-toggle="tab"><span id="demo49" >49</span></a></li>
+								  <li><a href="#panel-home-50" data-toggle="tab"><span id="demo50" >50</span></a></li>
+								  
 <li><a href="#panel-home-101" data-toggle="tab" title="Click when test has completed"><button class="btn btn-success"> Submit</button></a> </li>
 
+							
 							</ul>
 						</div>
 					</div>
@@ -240,6 +194,7 @@ if(isset($_SESSION['ust_id']))
 		<!-- MAIN JAVASRCIPT (REQUIRED ALL PAGE)-->
 		<script src="../stylesheet/assets/js/jquery.min.js"></script>
 		<script src="../stylesheet/assets/js/bootstrap.min.js"></script>
+		<script src="../stylesheet/assets/js/button_change_color.js"></script>
 		
 		<!-- PLUGINS -->
 		

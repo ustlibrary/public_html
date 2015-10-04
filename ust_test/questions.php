@@ -9,60 +9,60 @@
 										
 											<div class="tab-pane fade in active" id="panel-home-1">
 												<label>Q1. Capital of the India</label><br>
-												<input type="radio" name="q1" value="0"> Bihar <br>
-												<input type="radio" name="q1" value="1"> Delhi <br>
-												<input type="radio" name="q1" value="0"> kolkata <br>
-												<input type="radio" name="q1" value="0"> pune <br>
+												<input type="radio" onclick="myFunction1()" name="q1" value="0"> Bihar <br>
+												<input type="radio" onclick="myFunction1()" name="q1" value="1"> Delhi <br>
+												<input type="radio" onclick="myFunction1()" name="q1" value="0"> kolkata <br>
+												<input type="radio" onclick="myFunction1()" name="q1" value="0"> pune <br>
 
 											</div>
 											<div class="tab-pane fade" id="panel-home-2">
 												<label>Q2. Capital of the India</label><br>
-												<input type="radio" name="q2" value="0"> Bihar <br>
-												<input type="radio" name="q2" value="1"> Delhi <br>
-												<input type="radio" name="q2" value="0"> kolkata <br>
-												<input type="radio" name="q2" value="0"> pune <br>
+												<input type="radio" onclick="myFunction2()" name="q2" value="0"> Bihar <br>
+												<input type="radio" onclick="myFunction2()" name="q2" value="1"> Delhi <br>
+												<input type="radio" onclick="myFunction2()" name="q2" value="0"> kolkata <br>
+												<input type="radio" onclick="myFunction2()" name="q2" value="0"> pune <br>
 											</div>
 											<div class="tab-pane fade" id="panel-home-3">
 											<label>Q3. Capital of the India</label><br>
-												<input type="radio" name="q3" value="0"> Bihar <br>
-												<input type="radio" name="q3" value="1"> Delhi <br>
-												<input type="radio" name="q3" value="0"> kolkata <br>
-												<input type="radio" name="q3" value="0"> pune <br>
+												<input type="radio" onclick="myFunction3()" name="q3" value="0"> Bihar <br>
+												<input type="radio" onclick="myFunction3()" name="q3" value="1"> Delhi <br>
+												<input type="radio" onclick="myFunction3()" name="q3" value="0"> kolkata <br>
+												<input type="radio" onclick="myFunction3()" name="q3" value="0"> pune <br>
 											</div>
 											<div class="tab-pane fade" id="panel-home-4">
 											<label>Q4. Capital of the India</label><br>
-												<input type="radio" name="q4" value="0"> Bihar <br>
-												<input type="radio" name="q4" value="1"> Delhi <br>
-												<input type="radio" name="q4" value="0"> kolkata <br>
-												<input type="radio" name="q4" value="0"> pune <br>
+												<input type="radio" onclick="myFunction4()" name="q4" value="0"> Bihar <br>
+												<input type="radio" onclick="myFunction4()" name="q4" value="1"> Delhi <br>
+												<input type="radio" onclick="myFunction4()" name="q4" value="0"> kolkata <br>
+												<input type="radio" onclick="myFunction4()" name="q4" value="0"> pune <br>
 											</div>
 											<div class="tab-pane fade" id="panel-home-5">
 											<label>Q5. Capital of the India</label><br>
-												<input type="radio" name="q5" value="0"> Bihar <br>
-												<input type="radio" name="q5" value="1"> Delhi <br>
-												<input type="radio" name="q5" value="0"> kolkata <br>
-												<input type="radio" name="q5" value="0"> pune <br>
+												<input type="radio" onclick="myFunction5()" name="q5" value="0"> Bihar <br>
+												<input type="radio" onclick="myFunction5()" name="q5" value="1"> Delhi <br>
+												<input type="radio" onclick="myFunction5()" name="q5" value="0"> kolkata <br>
+												<input type="radio" onclick="myFunction5()" name="q5" value="0"> pune <br>
 											</div>
 											<div class="tab-pane fade" id="panel-home-6">
 											<label>Q6. Capital of the India</label><br>
-												<input type="radio" name="q6" value="0"> Bihar <br>
-												<input type="radio" name="q6" value="1"> Delhi <br>
-												<input type="radio" name="q6" value="0"> kolkata <br>
-												<input type="radio" name="q6" value="0"> pune <br>
+												<input type="radio" onclick="myFunction6()" name="q6" value="0"> Bihar <br>
+												<input type="radio" onclick="myFunction6()" name="q6" value="1"> Delhi <br>
+												<input type="radio" onclick="myFunction6()" name="q6" value="0"> kolkata <br>
+												<input type="radio" onclick="myFunction6()" name="q6" value="0"> pune <br>
 											</div>
 											<div class="tab-pane fade" id="panel-home-7">
 											<label>Q7. Capital of the India</label><br>
-												<input type="radio" name="q7" value="0"> Bihar <br>
-												<input type="radio" name="q7" value="1"> Delhi <br>
-												<input type="radio" name="q7" value="0"> kolkata <br>
-												<input type="radio" name="q7" value="0"> pune <br>
+												<input type="radio" onclick="myFunction7()" name="q7" value="0"> Bihar <br>
+												<input type="radio" onclick="myFunction7()" name="q7" value="1"> Delhi <br>
+												<input type="radio" onclick="myFunction7()" name="q7" value="0"> kolkata <br>
+												<input type="radio" onclick="myFunction7()" name="q7" value="0"> pune <br>
 											</div>
 											<div class="tab-pane fade" id="panel-home-8">
 											<label>Q8. Capital of the India</label><br>
-												<input type="radio" name="q8" value="0"> Bihar <br>
-												<input type="radio" name="q8" value="1"> Delhi <br>
-												<input type="radio" name="q8" value="0"> kolkata <br>
-												<input type="radio" name="q8" value="0"> pune <br>
+												<input type="radio" onclick="myFunction8()" name="q8" value="0"> Bihar <br>
+												<input type="radio" onclick="myFunction8()" name="q8" value="1"> Delhi <br>
+												<input type="radio" onclick="myFunction8()" name="q8" value="0"> kolkata <br>
+												<input type="radio" onclick="myFunction8()" name="q8" value="0"> pune <br>
 											</div>
 											<div class="tab-pane fade" id="panel-home-9">
 											
