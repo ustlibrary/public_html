@@ -5,17 +5,18 @@
 </heaad>
 <body>
 <?php
+session_start();
 if($_SERVER['REQUEST_METHOD'] == 'POST')
 {
 	require('../php/db_connect.php');
 	require('login_tools.php');
-	$ust_id = $_POST['ust_id'];
-	$pwd = $_POST['pass'];
+	
 	list($check,$data)=	validate($conn,$ust_id ,$pwd );
 	if($check)
 	{
 		session_start();
-		$_SESSION['ust_id']=$data['ust_id'];
+		$ust_id = $_SESSION['ust_id'];
+		$pwd = $_SESSION['pass'];
 		$_SESSION['first_name']=$data['first_name'];
 		$_SESSION['last_name']=$data['last_name'];
 		
@@ -24,7 +25,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 	else{$errors =$data ;}
 	mysqli_close($conn);
 }
-include('login/login.php');
+include('../ust_test/index.php');
 ?>
 </body>
 </html>

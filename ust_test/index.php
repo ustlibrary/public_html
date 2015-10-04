@@ -1,3 +1,15 @@
+<?php
+session_start();
+if(!isset($_SESSION['ust_id']))
+{ 
+
+
+}
+
+$_SESSION =array();
+
+session_destroy();
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>

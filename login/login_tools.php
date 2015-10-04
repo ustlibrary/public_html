@@ -5,9 +5,10 @@
 </head>
 <body>
 <?php
-
 $ust_id = $_POST['ust_id'];
 	$pwd = $_POST['pass'];
+	$_SESSION['ust_id']=$ust_id;
+	$_SESSION['pass']=$pwd;
 function load($page='../ust_test')
 {
 	$url='http://'.$_SERVER['HTTP_HOST'].
