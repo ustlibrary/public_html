@@ -1,10 +1,8 @@
 <?php
 session_start();
-if(!isset($_SESSION['ust_id']))
-{
-	require('../login/login_tools.php');
-	load();
-}
+if(isset($_SESSION['ust_id']))
+{ 
+
 
 ?>
 
@@ -252,3 +250,13 @@ if(!isset($_SESSION['ust_id']))
 
 	</body>
 </html>
+<?php
+
+}
+else{
+$_SESSION =array();
+
+session_destroy();
+include('../ust_test/index.php');
+}
+?>

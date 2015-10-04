@@ -70,7 +70,7 @@ session_destroy();
               <div class="the-box">
               
 <?php
-$page_title='Login';
+
 if(isset($errors) && !empty($errors))
 {
 
