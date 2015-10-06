@@ -54,3 +54,7 @@ color:#ff0000;
 .text-color-white{
 	color: #FFFFFF;
 }
+.btn-responsive{
+	 white-space: normal !important;
+    word-wrap: break-word;
+}

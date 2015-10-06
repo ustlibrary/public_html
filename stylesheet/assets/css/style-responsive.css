@@ -14,6 +14,9 @@ LARGE DESKTOP > 1200px
 =================================
 **/
 @media (min-width: 1200px) {
+	.ust-font{
+		font-size: 150px;
+	}
 
 }
 
@@ -32,6 +35,9 @@ STANDARD DESKTOP 992px <> 1200px
 	PRICING TABLE
 	-------------------------------------------
 	**/
+	.ust-font{
+		font-size: 120px;
+	}
 	.pricing-table-wrap{
 		margin: 60px;
 	}
@@ -66,6 +72,9 @@ TABLET < 1025px
 	MAIN LAYOUT
 	-------------------------------------------
 	**/
+	.ust-font{
+		font-size: 110px;
+	}
 	.sidebar-left,
 	.sidebar-right{
 		overflow-y: auto;
@@ -92,6 +101,9 @@ SMALL DESKTOP 768px <> 991px
 	MAIN LAYOUT
 	-------------------------------------------
 	**/
+	.ust-font{
+		font-size: 100px;
+	}
 	body{overflow-x: hidden;}
 	.wrapper{overflow-x: hidden;}
 	.top-navbar.toggle{
@@ -173,8 +185,11 @@ TABLET < 800px
 	MAIN LAYOUT
 	-------------------------------------------
 	**/
+	.ust-font{
+		font-size: 100px;
+	}
 	body{
-		padding-top: 120px;
+		padding-top:;
 	}
 	.wrapper{overflow-x: hidden;}
 	.top-navbar{
@@ -260,8 +275,11 @@ TABLET < 767px
 	MAIN LAYOUT
 	-------------------------------------------
 	**/
+	.ust-font{
+		font-size: 80px;
+	}
 	body{
-		padding-top: 120px;
+		padding-top: ;
 	}
 	.wrapper{overflow-x: hidden;}
 	.top-navbar{
@@ -524,6 +542,9 @@ PHONE < 640px
 =================================
 **/
 @media (max-width: 640px){
+	.ust-font{
+		font-size: 80px;
+	}
 
 }
 
@@ -542,6 +563,9 @@ PHONE < 600px
 	SOCIAL APPS
 	-------------------------------------------
 	**/
+	.ust-font{
+		font-size: 70px;
+	}
 	ul.timeline li.centering-line{
 		left: 15px;
 		margin-left: 0px;
@@ -624,6 +648,9 @@ PHONE < 548px
 	PRICING TABLE
 	-------------------------------------------
 	**/
+	.ust-font{
+		font-size: 40px;
+	}
 	.pricing-table-wrap{
 		margin: 40px 0;
 	}

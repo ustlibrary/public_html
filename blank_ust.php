@@ -7,7 +7,7 @@
 		BEGIN PAGE
 		===========================================================
 	-->
-		<div class="container" style="margin-top:-100px">
+		<div class="container" style="margin-top:">
 			<?php include('head_name.php'); ?>
 			<div class="row">
 				<?php include('nav.php'); ?>

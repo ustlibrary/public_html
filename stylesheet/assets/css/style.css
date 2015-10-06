@@ -73,9 +73,9 @@ CSS ELEMENTS
 body{
 	background: #fff;
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	color: #656D78;
-	padding-top: 60px;
+	
 	overflow-x: hidden;
 	height: 100%;
 }
@@ -83,7 +83,7 @@ body.no-padding-top{
 	padding-top: 0px;
 }
 body.top-navigation{
-	padding-top: 110px;
+	padding-top: ;
 }
 h1,h2,h3,h4,h5,h6{
 	font-weight: 500;
