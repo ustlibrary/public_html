@@ -9,7 +9,7 @@
 session_start();
 if($_SERVER['REQUEST_METHOD'] == 'POST')
 {
-	require('../php/db_connect.php');
+	require('../links/db_connect.php');
 	require('login_tools.php');
 	
 	list($check,$data)=	validate($conn,$ust_id ,$pwd );
@@ -21,7 +21,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST')
 		$_SESSION['first_name']=$data['first_name'];
 		$_SESSION['last_name']=$data['last_name'];
 		
-		load('../ust_test/test.php');
+		load('../ust_test/userLogin.php');
 	}
 	else{$errors =$data ;}
 	mysqli_close($conn);

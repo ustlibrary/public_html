@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<?php include('../php/head_links.php'); ?>
+	<?php include('../links/head_links.php'); ?>
 	<body>
 	<!--
 		===========================================================
@@ -10,11 +10,8 @@
 		<div class="container" style="margin-top:">
 			<h1>@Contact With UST Library . . . </h1>
 			<div class="row">
-				<?php include('../php/nav.php'); ?>
+				<?php include('../links/nav.php'); ?>
 			</div>		
-			
-			
-			
 			<div class="row">
 				<div class="col-sm-8">
 				 <center>
@@ -39,7 +36,7 @@
 				
 						
 		<div class="row">				
-		<?php include('../php/footer.php'); ?>
+		<?php include('../links/footer.php'); ?>
 		</div>
 		<!-- END PAGE CONTENT -->
 		<!--

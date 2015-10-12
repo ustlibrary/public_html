@@ -12,17 +12,17 @@ session_destroy();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-	<?php include('../php/head_links.php'); ?>
+	<?php include('../links/head_links.php'); ?>
 	<body>
 	<!--
 		===========================================================
 		BEGIN PAGE
 		===========================================================
 	-->
-		<div class="container" style="margin-top:-100px">
-			<?php include('../php/head_name.php'); ?>
+		<div class="container">
+			<?php include('../links/head_name.php'); ?>
 			<div class="row">
-				<?php include('../php/nav.php'); ?>
+				<?php include('../links/nav.php'); ?>
 			</div>		
 			<div class="row">
 				<div class="">
@@ -34,7 +34,7 @@ session_destroy();
 				
 						
 		<div class="row">				
-		<?php include('../php/footer.php'); ?>
+		<?php include('../links/footer.php'); ?>
 		</div>
 		<!-- END PAGE CONTENT -->
 		<!--

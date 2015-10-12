@@ -8,22 +8,28 @@
 										<div class="tab-content">
 										
 											<div class="tab-pane fade in active" id="panel-home-1">
-												<label>Q1. Capital of the India</label><br>
-												<input type="radio" onclick="myFunction1()" name="q1" value="0"> Bihar <br>
-												<input type="radio" onclick="myFunction1()" name="q1" value="1"> Delhi <br>
-												<input type="radio" onclick="myFunction1()" name="q1" value="0"> kolkata <br>
-												<input type="radio" onclick="myFunction1()" name="q1" value="0"> pune <br>
+												<label>Q1. Consider the following statements.</label><br>
+												<lable>	I. Every composite number has atleast one prime divisor.</lable><br />
+												<lable>II.Every Composite number has atleast two prime number.</lable><br />
+												<lable>	Which of the above statements is/are correct ?</lable><br />
+												<input type="radio" onclick="myFunction1()" name="q1" value="0"> a) only I <br>
+												<input type="radio" onclick="myFunction1()" name="q1" value="1"> b) Only II <br>
+												<input type="radio" onclick="myFunction1()" name="q1" value="0"> c) both I and II <br>
+												<input type="radio" onclick="myFunction1()" name="q1" value="0"> c) None of above <br>
 
 											</div>
 											<div class="tab-pane fade" id="panel-home-2">
-												<label>Q2. Capital of the India</label><br>
-												<input type="radio" onclick="myFunction2()" name="q2" value="0"> Bihar <br>
-												<input type="radio" onclick="myFunction2()" name="q2" value="1"> Delhi <br>
-												<input type="radio" onclick="myFunction2()" name="q2" value="0"> kolkata <br>
-												<input type="radio" onclick="myFunction2()" name="q2" value="0"> pune <br>
+												<label>	Q2. The LCM of 0.25 ,0.5, 0.3 is 
+												</label><br>
+												<input type="radio" onclick="myFunction2()" name="q2" value="0"> a) 0.1	 <br>
+												<input type="radio" onclick="myFunction2()" name="q2" value="0"> b) 0.15 <br>
+												<input type="radio" onclick="myFunction2()" name="q2" value="1"> c) 1.5 <br>
+												<input type="radio" onclick="myFunction2()" name="q2" value="0"> d)10 <br>
 											</div>
 											<div class="tab-pane fade" id="panel-home-3">
-											<label>Q3. Capital of the India</label><br>
+											<label>Q3.  Pipes   A and B  can fill a tank in 20h and 30h, respectively and pipe C can empty the full tank in 40 h. if all the pipes are opened together, how much time will be needed to make the tank full ?</label><br>
+
+												<img src="../images/q5.jpg" width="400" lenght="200">
 												<input type="radio" onclick="myFunction3()" name="q3" value="0"> Bihar <br>
 												<input type="radio" onclick="myFunction3()" name="q3" value="1"> Delhi <br>
 												<input type="radio" onclick="myFunction3()" name="q3" value="0"> kolkata <br>

@@ -11,12 +11,18 @@
 /**
 =================================
 LARGE DESKTOP > 1200px
-=================================
+================================
 **/
 @media (min-width: 1200px) {
 	.ust-font{
 		font-size: 150px;
 	}
+
+	.ust-font2{
+font-family:Book Antiqua;
+font-size: 20px;
+
+}
 
 }
 
@@ -35,6 +41,10 @@ STANDARD DESKTOP 992px <> 1200px
 	PRICING TABLE
 	-------------------------------------------
 	**/
+	.ust-font2{
+font-family:Book Antiqua;
+font-size: 18px;
+}
 	.ust-font{
 		font-size: 120px;
 	}
@@ -72,6 +82,10 @@ TABLET < 1025px
 	MAIN LAYOUT
 	-------------------------------------------
 	**/
+	.ust-font2{
+		font-family:Book Antiqua;
+		font-size: 18px;
+		}
 	.ust-font{
 		font-size: 110px;
 	}
@@ -101,6 +115,10 @@ SMALL DESKTOP 768px <> 991px
 	MAIN LAYOUT
 	-------------------------------------------
 	**/
+	.ust-font2{
+		font-family:Book Antiqua;
+		font-size: 16px;
+		}
 	.ust-font{
 		font-size: 100px;
 	}
@@ -185,6 +203,10 @@ TABLET < 800px
 	MAIN LAYOUT
 	-------------------------------------------
 	**/
+	.ust-font2{
+		font-family:Book Antiqua;
+		font-size: 14px;
+		}
 	.ust-font{
 		font-size: 100px;
 	}
@@ -275,6 +297,10 @@ TABLET < 767px
 	MAIN LAYOUT
 	-------------------------------------------
 	**/
+	.ust-font2{
+		font-family:Book Antiqua;
+		font-size: 14px;
+		}
 	.ust-font{
 		font-size: 80px;
 	}
@@ -546,6 +572,10 @@ PHONE < 640px
 		font-size: 80px;
 	}
 
+	.ust-font2{
+	font-family:Book Antiqua;
+	font-size: 14px;
+	}
 }
 
 
@@ -563,6 +593,10 @@ PHONE < 600px
 	SOCIAL APPS
 	-------------------------------------------
 	**/
+	.ust-font2{
+font-family:Book Antiqua;
+font-size: 14px;
+}
 	.ust-font{
 		font-size: 70px;
 	}
@@ -648,6 +682,10 @@ PHONE < 548px
 	PRICING TABLE
 	-------------------------------------------
 	**/
+	.ust-font2{
+		font-family:Book Antiqua;
+		font-size: 14px;
+		}
 	.ust-font{
 		font-size: 40px;
 	}
@@ -679,6 +717,10 @@ PHONE < 480px
 =================================
 **/
 @media (max-width: 480px){
+	.ust-font2{
+		font-family:Book Antiqua;
+		font-size: 12px;
+		}
 	.login-header{
 		height: 140px;
 	}

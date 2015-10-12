@@ -12,38 +12,8 @@ session_destroy();
 ?>
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="UST Library is silence place for your study and make a good career">
-    <meta name="keywords" content="ust,library,mukherjee nagar, delhi, upsc, ssc, bank, competitive exam ">
-    <meta name="author" content="Ashish kumar pandey, Ujjwal Pandey">
-    <meta name="google-site-verification" content="24j1anY6SAUhnM78R6ztpaA1CHPiT0XYvkSnM388g5E" />
-    <title>UST Library | www.ustlibrary.in</title>
- 
-    <!-- BOOTSTRAP CSS (REQUIRED ALL PAGE)-->
-    <link href="../stylesheet/assets/css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- PLUGINS CSS -->
-    
-    <!---///////// ----->
-    
-    <!-- MAIN CSS (REQUIRED ALL PAGE)-->
-    <link href="../stylesheet/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../stylesheet/assets/css/ust_style.css" rel="stylesheet">
-    <link href="../stylesheet/assets/css/style.css" rel="stylesheet">
-
-    <link href="../stylesheet/assets/css/style-responsive.css" rel="stylesheet">
- 
-    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
- 
+  <?php include('../links/head_links.php'); ?>
   <body>
-  
     
     
     
@@ -54,10 +24,12 @@ session_destroy();
     -->
     
      
-    <div class="container " style="margin-top:">
+    <div class="container ">
       <div class="row">
+        <?php include('../links/head_name.php'); ?>
+      </div>
         <div class="row">
-            <?php include('../php/index_nav.php'); ?>
+            <?php include('../links/nav.php'); ?>
           </div>    
           
           <div class="row">
@@ -78,7 +50,7 @@ if(isset($errors) && !empty($errors))
   {
     echo "- $msg <br>" ;
   }
-  echo'<font size="5px" color="red">Please try again or <a href="register.php">Register</a></p></font>' ;
+  echo'<font size="5px" color="red">Please try again or <a href="../register">Register</a></p></font>' ;
 }
 ?>  
              
@@ -93,7 +65,11 @@ if(isset($errors) && !empty($errors))
                   </div>
                   
                   <button type="submit" class="btn btn-success"><i class="fa fa-sign-in"></i> Login</button>
-                   <button type="submit" class="btn btn-danger"><i class="fa fa-sign-in"></i> Register</button>
+                <a href="../register">
+                   <button class="btn btn-danger"><i class="fa fa-sign-in"></i> Register</button>
+                </a>
+                <br />
+                <label>*If You have not user id, then register here.</label>
                 </form>
               </div><!-- /.the-box -->
             </div>  
@@ -105,17 +81,9 @@ if(isset($errors) && !empty($errors))
 
 
           <div class="row">
-            <?php include('../php/index_footer.php') ?>
+            <?php include('../links/footer.php') ?>
           </div>
-        
-        
-      
-     </div>
-      
-        
-        
-        
-    </div><!-- /.wrapper -->
+   </div><!-- /.wrapper -->
     <!-- END PAGE CONTENT -->
     
     

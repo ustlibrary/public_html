@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-	<?php include('head_links.php'); ?>
+	<?php include('../links/head_links.php'); ?>
 	<body>
 	<!--
 		===========================================================
 		BEGIN PAGE
 		===========================================================
 	-->
-		<div class="container" style="margin-top:">
-			<?php include('head_name.php'); ?>
+		<div class="container">
+			<?php include('../links/head_name.php'); ?>
 			<div class="row">
-				<?php include('nav.php'); ?>
+				<?php include('../links/nav.php'); ?>
 			</div>		
 			
 			
@@ -22,7 +22,7 @@
 				
 						
 						
-		<?php include('footer.php'); ?>
+		<?php include('../links/footer.php'); ?>
 		</div>
 		<!-- END PAGE CONTENT -->
 		<!--

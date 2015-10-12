@@ -47,51 +47,83 @@
 			<div class="row">
 				<div class="row" >
 					<div class="col-xs-2">
-						<img src="images/logo.png" alt="ust logo" style="margin-top:40px"  />
+						<center>
+							<img src="images/logo.png" alt="ust logo" style="margin-top:40px"  />
+						</center>
+						
 					</div>
-					<div class="col-xs-10">
-						<h1 class="ust-font" style=" color:deeppink;"> LIBRARY</h1>
+					<div class="col-xs-8">
+						<center>
+							<h1 class="ust-font" style=" color:deeppink;"> LIBRARY</h1>
+						</center>
+						
 					</div>
-				</div>				
+				</div>			
 				<div class="row">
-					<?php include('php/index_nav.php'); ?>
+					<div class="pull-right">
+					<button class="btn btn-danger btn-perspective" data-toggle="modal" data-target="#DangerModalColor2">
+								
+								 User Login 
+								</button>
+					</div>			
+				<div class="pull-right">
+					<a href="register">
+			           <button type="" class="btn btn-danger"><i class="fa fa-sign-in"></i>Sign Up</button>
+			        </a>
+			        |
+			    </div>	
+			</div>	
+				<div class="row">
+					<?php include('links/index_nav.php'); ?>
 				</div>			
 				<div class="row">
 					<div class="col-sm-6 ust-font2" >
-							 <i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="font-size:20px;color: #333333;">Fresh & Silence Study Environment </span><br>
-								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="font-size:20px;color: #333333;">Updates & News Headlines on notice board</span><br>
-								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="font-size:20px;color: #333333;">Fully Air Conditioned Premises </span><br>
-								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="font-size:20px;color: #333333;">Purified Water Facility</span><br>
-								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="font-size:20px;color: #333333;">Fully Air Conditioned Premises </span><br>
-								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="font-size:20px;color: #333333;">Hi-Speed Wi-Fi </span><br>
-								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="font-size:20px;color: #333333;">Flexible / Fixed Time & Seat </span><br>
-								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="font-size:20px;color: #333333;">Sufficient Light</span><br>
-								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="font-size:20px;color: #333333;">Tiffin on Table (Paid)</span><br>
-								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="font-size:20px;color: #333333;">24x7 Open</span><br>
+							 <i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Fresh & Silence Study Environment </span><br>
+								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Updates & News Headlines on notice board</span><br>
+								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Fully Air Conditioned Premises </span><br>
+								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Purified Water Facility</span><br>
+								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Fully Air Conditioned Premises </span><br>
+								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Hi-Speed Wi-Fi </span><br>
+								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Flexible / Fixed Time & Seat </span><br>
+								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Sufficient Light</span><br>
+								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Tiffin on Table (Paid)</span><br>
+								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">24x7 Open</span><br>
 					</div>
-					<div class="col-sm-6">
-						<div class="row">
-							<div class="col-sm-6">
-								<center><h5 class="media-object img-circle ust-font2" style="background-color:#335511; color:yellow; font-size:30px; height:200px;"><center><br>Study Envioronment</center><h5></center>
-							</div>
-							<div class="col-sm-6">
-								<center><h5 class="media-object img-circle ust-font2" style="background-color:#335511; color:yellow; font-size:30px; height:200px;"><br>Night <br>Shift just in <br>600-/</h5></center>
-							</div>
-						</div>
-						<div class="row">
-								<center><h5 class="media-object img-circle ust-font2" style="background-color:#335511; color:yellow; font-size:40px; "><center>24x7 Open</h5></center>
-						</div>
-					</div>
+					
 				</div>
 				<!-- footer div -->
 				<div class="row" style="background-color:#299DCB">
-					<?php include('php/index_footer.php') ?>
+					<?php include('links/index_footer.php') ?>
 				</div><!-- /end -->
 			</div><!-- end row -->
 		</div><!-- /.container -->
 		<!-- END PAGE CONTENT -->
 		
-		
+		<div style="display: none;" class="modal fade" id="DangerModalColor2" tabindex="-1" role="dialog" aria-hidden="true">
+										  <div class="modal-dialog">
+											<div class="modal-content modal-no-shadow modal-no-border">
+											  <div class="modal-header bg-danger no-border">
+												<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+												<h4 class="modal-title">Way to User Login Time.</h4>
+											  </div>
+											  <div class="modal-body">
+												<h1>
+														Welcome To UST Library User Login Time.
+
+
+												</h1>
+											  </div>
+											  <div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+												<a href="ust_test">
+												<button type="button" class="btn btn-danger">Go to Login Page</button>
+											</a>	
+											  </div><!-- /.modal-footer -->
+											</div><!-- /.modal-content .modal-no-shadow .modal-no-border .the-box .danger .full -->
+										  </div><!-- /.modal-dialog -->
+										</div>
+					
+
 	
 		
 		

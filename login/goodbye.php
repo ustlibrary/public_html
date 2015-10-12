@@ -5,7 +5,8 @@ if(!isset($_SESSION['ust_id']))
 $page_title='Good bye' ;
 $_SESSION =array();
 
-load('/');
+
 session_destroy();
+include('login.php');
 
 ?>
