@@ -61,11 +61,11 @@ if(isset($errors) && !empty($errors))
                 <form action="register_action.php" method="POST" role="form">
                   <div class="form-group">
                   <label>First Name</label>
-                  <input class="form-control" name="first_name" placeholder="Full Name" type="name" required>
+                  <input class="form-control" name="first_name" placeholder="first Name" type="name" required>
                   </div>
                   <div class="form-group">
                   <label>last Name</label>
-                  <input class="form-control" name="last_name" placeholder="Full Name" type="name" required>
+                  <input class="form-control" name="last_name" placeholder="last Name" type="name" required>
                   </div>
                    <div class="form-group">
                   <label>Mobile Number</label>

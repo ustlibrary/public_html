@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-	<?php include('head_links.php'); ?>
+	<?php include('../links/head_links.php'); ?>
  
 	<body>
 	
 		<?php
-			include('db_connect.php');
+			include('../links/db_connect.php');
 			
 			$name = $contact = $details ="";
 			

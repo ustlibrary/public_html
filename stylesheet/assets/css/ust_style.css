@@ -58,3 +58,9 @@ color:#ff0000;
 	 white-space: normal !important;
     word-wrap: break-word;
 }
+.strong {
+	font-weight: bold;
+}
+.ust-shadow{
+	box-shadow: 5px 15px 40px 15px green;
+}

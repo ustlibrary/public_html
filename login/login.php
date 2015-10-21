@@ -20,8 +20,9 @@
          <div class="row">
         <?php include('../links/head_name.php'); ?>
       </div>
+      
         <div class="row">
-            <?php include('../links/index_nav.php'); ?>
+            <?php include('../links/nav.php'); ?>
           </div>    
           
           <div class="row">

@@ -3,10 +3,6 @@ session_start();
 if(isset($_SESSION['ust_id']))
 { 
 
-
-
-
-
 //Expire the session if user is inactive for 30
 //minutes or more.
 $expireAfter = 30;
@@ -37,7 +33,33 @@ if(isset($_SESSION['last_action'])){
 //Assign the current timestamp as the user's
 //latest activity
 $_SESSION['last_action'] = time();
+
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+
+
+include('../links/db_connect.php');
+
+$t_id = $_SESSION['t_code'];
+$u_id = $_SESSION['ust_id'];
+
+$sqlrecord = "INSERT INTO record(test_id,ust_id,test_marks )
+VALUES ('$t_id','$u_id','0')";
+
+
+if ($conn->query($sqlrecord) === TRUE) {
+  
+} else {
+    echo "insert in table: " . $conn->error;
+}
+
+
 ?>
+
+ 
+
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -53,14 +75,22 @@ $_SESSION['last_action'] = time();
 		<h1>Welcome to Ust Library Test Time.</h1>
 	</div>
 	<div class="row">
-				
-				<div class="pull-right">
-					<a href="../login/goodbye.php">
-					<button class="btn btn-danger btn-perspective">
-						Logout
-					</button>
-					</a>
-				</div>
+
+		<div class="pull-right">
+			<a href="userLogin.php">
+			<button class="btn btn-danger btn-perspective">
+				User Home
+			</button>
+			</a>
+		</div>		
+
+		<div class="pull-right">
+			<a href="../login/goodbye.php">
+			<button class="btn btn-danger btn-perspective">
+				Logout
+			</button>
+			</a>
+		</div>
 
 	</div>
 	<div class="row" >
@@ -88,7 +118,7 @@ $_SESSION['last_action'] = time();
 				
 				<ul class="pagination block-color">
 					  <ul class="pagination block-color">
-					  <li><a href="#panel-home-1" data-toggle="tab"><span id="demo1" >1</span></a></li>
+					  <li><a href="#panel-home-1" data-toggle="tab"><span id="demo1" >1</span></a></li>&nbsp;
 					  <li><a href="#panel-home-2" data-toggle="tab"><span id="demo2" >2</span></a></li>
 					  <li><a href="#panel-home-3" data-toggle="tab"><span id="demo3" >3</span></a></li>
 					  <li><a href="#panel-home-4" data-toggle="tab"><span id="demo4" >4</span></a></li>
@@ -176,6 +206,15 @@ $_SESSION['last_action'] = time();
 
 	</body>
 </html>
+
+<?php
+ }else {}
+
+
+ ?>
+
+
+
 
 <?php
 

@@ -1,5 +1,11 @@
 <div class="row">
 	<div class="col-sm-8">
+
+			<?php 
+			echo "<h1>Test code is  ".$_SESSION['t_code']." </h1>";
+			 ?>
+
+
 		<table border="1|0">
 							<tr>
 								<td>
@@ -1804,7 +1810,42 @@
 	<div class="col-sm-4">
 		<h3 style="color:#00FF00">Total Right Answer is:- 
 			<?php 
-				echo 	$r1 + $r2 + $r3 +$r4+$r5+$r6+$r7+$r8+$r9+$r10+$r11+$r12+ $r13+$r14+$r15+$r16+$r17+$r18+$r19+$r20+$r21+$r22+$r23+$r24+$r25+$r26+$r27+$r28+$r29+$r30+$r31+$r32+$r33+$r34+$r35+$r36+$r37+$r38+$r39+$r40+$r41+$r42+$r43+$r44+$r45+$r46+$r47+$r48+$r49+$r50;
+			$rightAnswer = 	$total = $p = $per = $finalPer = "";
+				$rightAnswer =	$r1 + $r2 + $r3 +$r4+$r5+$r6+$r7+$r8+$r9+$r10+$r11+$r12+ $r13+$r14+$r15+$r16+$r17+$r18+$r19+$r20+$r21+$r22+$r23+$r24+$r25+$r26+$r27+$r28+$r29+$r30+$r31+$r32+$r33+$r34+$r35+$r36+$r37+$r38+$r39+$r40+$r41+$r42+$r43+$r44+$r45+$r46+$r47+$r48+$r49+$r50;
+				echo $rightAnswer;
+				
+				$total = 50;
+				$p = 100;
+				$per= $rightAnswer * $p ;
+				$finalPer = $per / $total;
+
+				include('../links/db_connect.php');
+
+				$sqlResult = "INSERT INTO ".$_SESSION['ust_id']." (test_id, test_marks, test_per)
+				VALUES ('".$_SESSION['t_code']."', '$rightAnswer', '$finalPer')";
+
+				if ($conn->query($sqlResult) === TRUE) {
+				   
+				} else {
+				    echo "Error: " . $sqlResult . "<br>" . $conn->error;	
+
+
+				}
+
+				$t_id = $_SESSION['t_code'];
+
+			//insert for record, finding rank	
+				$sqlRank = "UPDATE  record SET test_marks = '$rightAnswer' WHERE test_id = '$t_id' ";  
+				
+
+				if ($conn->query($sqlRank) === TRUE) {
+				   
+				} else {
+				    echo "Error: " . $sqlRank . "<br>" . $conn->error;	
+				}
+
+				
+
 
 
 			
@@ -1817,6 +1858,8 @@
 			
 			echo $w1 + $w2 + $w3 +$w4+$w5+$w6+$w7+$w8+$w9+$w10+$w11+$w12+ $w13+$w14+$w15+$w16+$w17+$w18+$w19+$w20+$w21+$w22+$w23+$w24+$w25+$w26+$w27+$w28+$w29+$w30+$w31+$w32+$w33+$w34+$w35+$w36+$w37+$w38+$w39+$w40+$w41+$w42+$w43+$w44+$w45+$w46+$w47+$w48+$w49+$w50; ;
 				
+
+
 			 ?>
 
 		</h3>
@@ -1835,6 +1878,3 @@
 
 
 </div>
-
-						
-

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<?php include('head_links.php'); ?>
+	<?php include('../linkshead_links.php'); ?>
  
 	<body>
 	
@@ -20,7 +20,7 @@
 				<table class="table table-th-block table-primary"><thead>
 				
 				<?php
-					include('db_connect.php');
+					include('../links/db_connect.php');
 
 					
 					$sql = "SELECT * FROM contacts";

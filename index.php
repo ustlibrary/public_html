@@ -78,6 +78,9 @@
 				</div>			
 				<div class="row">
 					<div class="col-sm-6 ust-font2" >
+						<div class="row">
+							<h2>Library Rooms Facilities</h2>
+							<div class="double_line"></div>
 							 <i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Fresh & Silence Study Environment </span><br>
 								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Updates & News Headlines on notice board</span><br>
 								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Fully Air Conditioned Premises </span><br>
@@ -88,8 +91,20 @@
 								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Sufficient Light</span><br>
 								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">Tiffin on Table (Paid)</span><br>
 								<i class="fa fa-bookmark margin-right20" style="color:#ff0000;"></i><span  style="color: #333333;">24x7 Open</span><br>
+						</div>
+						<div class="row">
+							<center>
+							<br>
+							<button class="btn-lg btn-danger ust-font2">
+								English Test paper's Partner<br>
+								<span class="strong">Shyam Sharma Class</span>
+							</button>
+							</center>
+						</div>	
 					</div>
-					
+					<div class="col-sm-6">
+						<?php include('right_center_part.php'); ?>						
+					</div>
 				</div>
 				<!-- footer div -->
 				<div class="row" style="background-color:#299DCB">
@@ -112,6 +127,7 @@
 
 
 												</h1>
+												<h5>*For appearing in test first login yourself.</h5>
 											  </div>
 											  <div class="modal-footer">
 												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

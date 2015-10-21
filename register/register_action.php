@@ -1,5 +1,6 @@
 <?php
 
+
 	include('../links/db_connect.php');
 	$f_name = $_POST["first_name"];
 	$l_name = $_POST["last_name"];
@@ -73,7 +74,27 @@ VALUES ('$ust_id','$f_name','$l_name','$pass','$e_id', '$m_number')";
 			echo "Error: " . $sql . "<br>" . $conn->error;
 			}
 
-			$conn->close();
+			
+			$sqlCreate = "CREATE TABLE  ".$ust_id."(
+			id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+			test_id VARCHAR(30) NOT NULL,
+			test_marks VARCHAR(3) NOT NULL,
+			test_per VARCHAR(3),
+			reg_date TIMESTAMP
+			)";
+
+
+
+if ($conn->query($sqlCreate) === TRUE) {
+  
+} else {
+    echo "Error creating table: " . $conn->error;
+}
+
+$conn->close();
+
+
+
 		?>
 		</div>
 

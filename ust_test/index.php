@@ -16,7 +16,7 @@ session_destroy();
   <body>
     
     
-    
+
     <!--
     ===========================================================
     BEGIN PAGE
@@ -28,6 +28,7 @@ session_destroy();
       <div class="row">
         <?php include('../links/head_name.php'); ?>
       </div>
+      
         <div class="row">
             <?php include('../links/nav.php'); ?>
           </div>    

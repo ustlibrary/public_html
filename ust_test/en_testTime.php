@@ -51,10 +51,17 @@ $_SESSION['last_action'] = time();
 	-->
 		<div class="container">
 			<div class="row">
-				<h1>@Welcome to UST LIBRARY.</h1>
+				<h1>@Welcome to English Test paper.</h1>
+				<h4>@Presented by SHYAM SHARMA CLASSES .</h4>
 			</div>
 			<div class="row">
-				
+				<div class="pull-right">
+					<a href="userLogin.php">
+					<button class="btn btn-danger btn-perspective">
+						User Home
+					</button>
+					</a>
+				</div>	
 				<div class="pull-right">
 					<a href="../login/goodbye.php">
 					<button class="btn btn-danger btn-perspective">
@@ -76,80 +83,52 @@ $_SESSION['last_action'] = time();
 			</div>
 			
 			<div class="row">
+				<div class="col-sm-4"></div>
 				<div class="col-sm-4">
 						<center>
 							<div class="responsive-table ust-font2">
-								<table class="table">
-									<tr class="danger"><th>Test Papers</th></tr>
-									<tr><td><a href="gs_testTime.php"name="UST00GS001" >GS</a></td></tr>
-									<tr><td><a href="en_testTime.php">English(<a href="#" target="blank">By SHYAM SHARMA</a>)</a></a></td></tr>
-								</table>
+								
+									<h1 class="danger">Test Series</h1>
+								<hr>	
+									
+				<div class="form-group" >
+					
+					<?php   
+						include('../links/db_connect.php');
+						$sqlTestSelect = "SELECT * FROM english";
+						$result = $conn->query($sqlTestSelect);
+					if ($result->num_rows > 0) {
+						// output data of each row
+						while($row = $result->fetch_assoc()) {
+							?>
+								<form action="test.php" method="POST">
 
+									<input type="submit" name=<?php echo $_SESSION['t_code'] = $row['t_code'];  ?> value=<?php echo  $row['t_code']; ?> >
+
+
+								</form>
+
+
+							<?php
+						}
+						
+					} else { echo "There is No any Test papers !!! Please Contact With UST Library !!!" ;
+						
+					}
+					?>
+				</div>
+				
 							</div>
 
 
 						</center>
 
 				</div>
-				<div class="col-sm-4">
+								<div class="col-sm-4"></div>
 
-				</div>
-				<div class="col-sm-4">
-					<div class="responsive-table ust-font2">
-						<table class="table">
-									<tr class="danger"><th>Test Id</th><th>Marks/(50)</th><th>%</th></tr>
-									<tr class="success">
-						<?php
-
-						include('../links/db_connect.php');
-
-
-						$sqlTestdetails = "SELECT * FROM ".$_SESSION['ust_id']." ";
-						$result = $conn->query($sqlTestdetails);
-
-						if ($result->num_rows > 0) {
-						    // output data of each row
-						    while($row = $result->fetch_assoc()) {
-						       
-						    
-						?>
-
-
-
-
-								
-										<td>
-											<a href="test.php">
-												<?php echo $row['test_id']  ?>
-											</a>
-										</td>
-										<td>
-											<?php echo $row['test_marks']  ?>
-
-										</td>
-										<td>
-											<?php echo $row['test_per']  ?>
-										</td></tr>
-
-										<?php
-
-
-										}
-										} else {
-										    echo "Don't Attempted any Test";
-										}
-										$conn->close();
-
-										?>
-
-									
-								</table>
-
-							</div>
-				</div>
 				
-			</div>
 				
+		</div>		
 						
 				<br>
 				<br>		
