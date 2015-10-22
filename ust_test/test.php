@@ -208,7 +208,11 @@ if ($conn->query($sqlrecord) === TRUE) {
 </html>
 
 <?php
- }else {}
+ }else {
+
+ 	echo "<center><h1>Please, Don't refresh your Page. It is a secure page. <br> Go Back with your browser</h1></center>";
+
+ }
 
 
  ?>

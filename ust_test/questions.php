@@ -21,8 +21,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row1["nu"].")".$row1["q"] ?></label><br>
 					<input type="radio" onclick="myFunction1()" name="q1" value="0"> a) <?php  echo $row1["a"]; ?><br>
-					<input type="radio" onclick="myFunction1()" name="q1" value="1"> b) <?php  echo $row1["b"]; ?> <br>
-					<input type="radio" onclick="myFunction1()" name="q1" value="0"> c) <?php  echo $row1["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction1()" name="q1" value="0"> b) <?php  echo $row1["b"]; ?> <br>
+					<input type="radio" onclick="myFunction1()" name="q1" value="1"> c) <?php  echo $row1["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction1()" name="q1" value="0"> d) <?php  echo $row1["d"]; ?> <br>
 					<?php
 						}
@@ -43,8 +43,8 @@ include('../links/db_connect.php');
 					<label>	<?php  echo "Q". $row2["nu"].")".$row2["q"] ?></label><br>
 					<input type="radio" onclick="myFunction2()" name="q2" value="0"> a)  <?php  echo $row2["a"]; ?>  <br>
 					<input type="radio" onclick="myFunction2()" name="q2" value="0"> b)  <?php  echo $row2["b"]; ?> <br>
-					<input type="radio" onclick="myFunction2()" name="q2" value="1"> c)  <?php  echo $row2["c"]; ?> <br>
-					<input type="radio" onclick="myFunction2()" name="q2" value="0"> d) <?php  echo $row2["d"]; ?> <br>
+					<input type="radio" onclick="myFunction2()" name="q2" value="0"> c)  <?php  echo $row2["c"]; ?> <br>
+					<input type="radio" onclick="myFunction2()" name="q2" value="1"> d) <?php  echo $row2["d"]; ?> <br>
 					<?php
 						} } else {}
 					?>
@@ -60,7 +60,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row3["nu"].")".$row3["q"] ?></label><br>
 					<input type="radio" onclick="myFunction3()" name="q3" value="0"> a) <?php  echo $row3["a"]; ?><br>
-					<input type="radio" onclick="myFunction3()" name="q3" value="11"> b) <?php  echo $row3["b"]; ?> <br>
+					<input type="radio" onclick="myFunction3()" name="q3" value="1"> b) <?php  echo $row3["b"]; ?> <br>
 					<input type="radio" onclick="myFunction3()" name="q3" value="0"> c) <?php  echo $row3["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction3()" name="q3" value="0"> d) <?php  echo $row3["d"]; ?> <br>
 					<?php
@@ -79,7 +79,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row4["nu"].")".$row4["q"] ?></label><br>
 					<input type="radio" onclick="myFunction4()" name="q4" value="0"> a) <?php  echo $row4["a"]; ?><br>
-					<input type="radio" onclick="myFunction4()" name="q4" value="4"> b) <?php  echo $row4["b"]; ?> <br>
+					<input type="radio" onclick="myFunction4()" name="q4" value="1"> b) <?php  echo $row4["b"]; ?> <br>
 					<input type="radio" onclick="myFunction4()" name="q4" value="0"> c) <?php  echo $row4["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction4()" name="q4" value="0"> d) <?php  echo $row4["d"]; ?> <br>
 					<?php
@@ -96,8 +96,8 @@ include('../links/db_connect.php');
 											while($row5 = $result5->fetch_assoc()) {
 					?>					
 					<label><?php  echo "Q". $row5["nu"].")".$row5["q"] ?></label><br>
-					<input type="radio" onclick="myFunction5()" name="q5" value="0"> a) <?php  echo $row5["a"]; ?><br>
-					<input type="radio" onclick="myFunction5()" name="q5" value="5"> b) <?php  echo $row5["b"]; ?> <br>
+					<input type="radio" onclick="myFunction5()" name="q5" value="1"> a) <?php  echo $row5["a"]; ?><br>
+					<input type="radio" onclick="myFunction5()" name="q5" value="0"> b) <?php  echo $row5["b"]; ?> <br>
 					<input type="radio" onclick="myFunction5()" name="q5" value="0"> c) <?php  echo $row5["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction5()" name="q5" value="0"> d) <?php  echo $row5["d"]; ?> <br>
 					<?php
@@ -115,7 +115,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row6["nu"].")".$row6["q"] ?></label><br>
 					<input type="radio" onclick="myFunction6()" name="q6" value="0"> a) <?php  echo $row6["a"]; ?><br>
-					<input type="radio" onclick="myFunction6()" name="q6" value="6"> b) <?php  echo $row6["b"]; ?> <br>
+					<input type="radio" onclick="myFunction6()" name="q6" value="1"> b) <?php  echo $row6["b"]; ?> <br>
 					<input type="radio" onclick="myFunction6()" name="q6" value="0"> c) <?php  echo $row6["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction6()" name="q6" value="0"> d) <?php  echo $row6["d"]; ?> <br>
 					<?php
@@ -133,8 +133,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row7["nu"].")".$row7["q"] ?></label><br>
 					<input type="radio" onclick="myFunction7()" name="q7" value="0"> a) <?php  echo $row7["a"]; ?><br>
-					<input type="radio" onclick="myFunction7()" name="q7" value="7"> b) <?php  echo $row7["b"]; ?> <br>
-					<input type="radio" onclick="myFunction7()" name="q7" value="0"> c) <?php  echo $row7["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction7()" name="q7" value="0"> b) <?php  echo $row7["b"]; ?> <br>
+					<input type="radio" onclick="myFunction7()" name="q7" value="1"> c) <?php  echo $row7["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction7()" name="q7" value="0"> d) <?php  echo $row7["d"]; ?> <br>
 					<?php
 						}
@@ -151,7 +151,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row8["nu"].")".$row8["q"] ?></label><br>
 					<input type="radio" onclick="myFunction8()" name="q8" value="0"> a) <?php  echo $row8["a"]; ?><br>
-					<input type="radio" onclick="myFunction8()" name="q8" value="8"> b) <?php  echo $row8["b"]; ?> <br>
+					<input type="radio" onclick="myFunction8()" name="q8" value="1"> b) <?php  echo $row8["b"]; ?> <br>
 					<input type="radio" onclick="myFunction8()" name="q8" value="0"> c) <?php  echo $row8["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction8()" name="q8" value="0"> d) <?php  echo $row8["d"]; ?> <br>
 					<?php
@@ -168,8 +168,8 @@ include('../links/db_connect.php');
 											while($row9 = $result9->fetch_assoc()) {
 					?>					
 					<label><?php  echo "Q". $row9["nu"].")".$row9["q"] ?></label><br>
-					<input type="radio" onclick="myFunction9()" name="q9" value="0"> a) <?php  echo $row9["a"]; ?><br>
-					<input type="radio" onclick="myFunction9()" name="q9" value="9"> b) <?php  echo $row9["b"]; ?> <br>
+					<input type="radio" onclick="myFunction9()" name="q9" value="1"> a) <?php  echo $row9["a"]; ?><br>
+					<input type="radio" onclick="myFunction9()" name="q9" value="0"> b) <?php  echo $row9["b"]; ?> <br>
 					<input type="radio" onclick="myFunction9()" name="q9" value="0"> c) <?php  echo $row9["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction9()" name="q9" value="0"> d) <?php  echo $row9["d"]; ?> <br>
 					<?php
@@ -187,7 +187,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row10["nu"].")".$row10["q"] ?></label><br>
 					<input type="radio" onclick="myFunction10()" name="q10" value="0"> a) <?php  echo $row10["a"]; ?><br>
-					<input type="radio" onclick="myFunction10()" name="q10" value="9"> b) <?php  echo $row10["b"]; ?> <br>
+					<input type="radio" onclick="myFunction10()" name="q10" value="1"> b) <?php  echo $row10["b"]; ?> <br>
 					<input type="radio" onclick="myFunction10()" name="q10" value="0"> c) <?php  echo $row10["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction10()" name="q10" value="0"> d) <?php  echo $row10["d"]; ?> <br>
 					<?php
@@ -206,7 +206,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row11["nu"].")".$row11["q"] ?></label><br>
 					<input type="radio" onclick="myFunction11()" name="q11" value="0"> a) <?php  echo $row11["a"]; ?><br>
-					<input type="radio" onclick="myFunction11()" name="q11" value="9"> b) <?php  echo $row11["b"]; ?> <br>
+					<input type="radio" onclick="myFunction11()" name="q11" value="1"> b) <?php  echo $row11["b"]; ?> <br>
 					<input type="radio" onclick="myFunction11()" name="q11" value="0"> c) <?php  echo $row11["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction11()" name="q11" value="0"> d) <?php  echo $row11["d"]; ?> <br>
 					<?php
@@ -224,7 +224,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row12["nu"].")".$row12["q"] ?></label><br>
 					<input type="radio" onclick="myFunction12()" name="q12" value="0"> a) <?php  echo $row12["a"]; ?><br>
-					<input type="radio" onclick="myFunction12()" name="q12" value="9"> b) <?php  echo $row12["b"]; ?> <br>
+					<input type="radio" onclick="myFunction12()" name="q12" value="1"> b) <?php  echo $row12["b"]; ?> <br>
 					<input type="radio" onclick="myFunction12()" name="q12" value="0"> c) <?php  echo $row12["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction12()" name="q12" value="0"> d) <?php  echo $row12["d"]; ?> <br>
 					<?php
@@ -242,7 +242,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row13["nu"].")".$row13["q"] ?></label><br>
 					<input type="radio" onclick="myFunction13()" name="q13" value="0"> a) <?php  echo $row13["a"]; ?><br>
-					<input type="radio" onclick="myFunction13()" name="q13" value="9"> b) <?php  echo $row13["b"]; ?> <br>
+					<input type="radio" onclick="myFunction13()" name="q13" value="0"> b) <?php  echo $row13["b"]; ?> <br>
 					<input type="radio" onclick="myFunction13()" name="q13" value="0"> c) <?php  echo $row13["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction13()" name="q13" value="0"> d) <?php  echo $row13["d"]; ?> <br>
 					<?php
@@ -260,7 +260,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row14["nu"].")".$row14["q"] ?></label><br>
 					<input type="radio" onclick="myFunction14()" name="q14" value="0"> a) <?php  echo $row14["a"]; ?><br>
-					<input type="radio" onclick="myFunction14()" name="q14" value="9"> b) <?php  echo $row14["b"]; ?> <br>
+					<input type="radio" onclick="myFunction14()" name="q14" value="1"> b) <?php  echo $row14["b"]; ?> <br>
 					<input type="radio" onclick="myFunction14()" name="q14" value="0"> c) <?php  echo $row14["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction14()" name="q14" value="0"> d) <?php  echo $row14["d"]; ?> <br>
 					<?php
@@ -278,7 +278,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row15["nu"].")".$row15["q"] ?></label><br>
 					<input type="radio" onclick="myFunction15()" name="q15" value="0"> a) <?php  echo $row15["a"]; ?><br>
-					<input type="radio" onclick="myFunction15()" name="q15" value="9"> b) <?php  echo $row15["b"]; ?> <br>
+					<input type="radio" onclick="myFunction15()" name="q15" value="0"> b) <?php  echo $row15["b"]; ?> <br>
 					<input type="radio" onclick="myFunction15()" name="q15" value="0"> c) <?php  echo $row15["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction15()" name="q15" value="0"> d) <?php  echo $row15["d"]; ?> <br>
 					<?php
@@ -295,8 +295,8 @@ include('../links/db_connect.php');
 											while($row16 = $result16->fetch_assoc()) {
 					?>					
 					<label><?php  echo "Q". $row16["nu"].")".$row16["q"] ?></label><br>
-					<input type="radio" onclick="myFunction16()" name="q16" value="0"> a) <?php  echo $row16["a"]; ?><br>
-					<input type="radio" onclick="myFunction16()" name="q16" value="9"> b) <?php  echo $row16["b"]; ?> <br>
+					<input type="radio" onclick="myFunction16()" name="q16" value="1"> a) <?php  echo $row16["a"]; ?><br>
+					<input type="radio" onclick="myFunction16()" name="q16" value="0"> b) <?php  echo $row16["b"]; ?> <br>
 					<input type="radio" onclick="myFunction16()" name="q16" value="0"> c) <?php  echo $row16["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction16()" name="q16" value="0"> d) <?php  echo $row16["d"]; ?> <br>
 					<?php
@@ -314,8 +314,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row17["nu"].")".$row17["q"] ?></label><br>
 					<input type="radio" onclick="myFunction17()" name="q17" value="0"> a) <?php  echo $row17["a"]; ?><br>
-					<input type="radio" onclick="myFunction17()" name="q17" value="9"> b) <?php  echo $row17["b"]; ?> <br>
-					<input type="radio" onclick="myFunction17()" name="q17" value="0"> c) <?php  echo $row17["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction17()" name="q17" value="0"> b) <?php  echo $row17["b"]; ?> <br>
+					<input type="radio" onclick="myFunction17()" name="q17" value="1"> c) <?php  echo $row17["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction17()" name="q17" value="0"> d) <?php  echo $row17["d"]; ?> <br>
 					<?php
 						}
@@ -332,7 +332,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row18["nu"].")".$row18["q"] ?></label><br>
 					<input type="radio" onclick="myFunction18()" name="q18" value="0"> a) <?php  echo $row18["a"]; ?><br>
-					<input type="radio" onclick="myFunction18()" name="q18" value="9"> b) <?php  echo $row18["b"]; ?> <br>
+					<input type="radio" onclick="myFunction18()" name="q18" value="1"> b) <?php  echo $row18["b"]; ?> <br>
 					<input type="radio" onclick="myFunction18()" name="q18" value="0"> c) <?php  echo $row18["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction18()" name="q18" value="0"> d) <?php  echo $row18["d"]; ?> <br>
 					<?php
@@ -350,9 +350,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row19["nu"].")".$row19["q"] ?></label><br>
 					<input type="radio" onclick="myFunction19()" name="q19" value="0"> a) <?php  echo $row19["a"]; ?><br>
-					<input type="radio" onclick="myFunction19()" name="q19" value="9"> b) <?php  echo $row19["b"]; ?> <br>
+					<input type="radio" onclick="myFunction19()" name="q19" value="0"> b) <?php  echo $row19["b"]; ?> <br>
 					<input type="radio" onclick="myFunction19()" name="q19" value="0"> c) <?php  echo $row19["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction19()" name="q19" value="0"> d) <?php  echo $row19["d"]; ?> <br>
+					<input type="radio" onclick="myFunction19()" name="q19" value="1"> d) <?php  echo $row19["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
@@ -368,9 +368,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row20["nu"].")".$row20["q"] ?></label><br>
 					<input type="radio" onclick="myFunction20()" name="q20" value="0"> a) <?php  echo $row20["a"]; ?><br>
-					<input type="radio" onclick="myFunction20()" name="q20" value="9"> b) <?php  echo $row20["b"]; ?> <br>
+					<input type="radio" onclick="myFunction20()" name="q20" value="0"> b) <?php  echo $row20["b"]; ?> <br>
 					<input type="radio" onclick="myFunction20()" name="q20" value="0"> c) <?php  echo $row20["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction20()" name="q20" value="0"> d) <?php  echo $row20["d"]; ?> <br>
+					<input type="radio" onclick="myFunction20()" name="q20" value="1"> d) <?php  echo $row20["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
@@ -385,8 +385,8 @@ include('../links/db_connect.php');
 											while($row21 = $result21->fetch_assoc()) {
 					?>					
 					<label><?php  echo "Q". $row21["nu"].")".$row21["q"] ?></label><br>
-					<input type="radio" onclick="myFunction21()" name="q21" value="0"> a) <?php  echo $row21["a"]; ?><br>
-					<input type="radio" onclick="myFunction21()" name="q21" value="9"> b) <?php  echo $row21["b"]; ?> <br>
+					<input type="radio" onclick="myFunction21()" name="q21" value="1"> a) <?php  echo $row21["a"]; ?><br>
+					<input type="radio" onclick="myFunction21()" name="q21" value="0"> b) <?php  echo $row21["b"]; ?> <br>
 					<input type="radio" onclick="myFunction21()" name="q21" value="0"> c) <?php  echo $row21["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction21()" name="q21" value="0"> d) <?php  echo $row21["d"]; ?> <br>
 					<?php
@@ -404,8 +404,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row22["nu"].")".$row22["q"] ?></label><br>
 					<input type="radio" onclick="myFunction22()" name="q22" value="0"> a) <?php  echo $row22["a"]; ?><br>
-					<input type="radio" onclick="myFunction22()" name="q22" value="9"> b) <?php  echo $row22["b"]; ?> <br>
-					<input type="radio" onclick="myFunction22()" name="q22" value="0"> c) <?php  echo $row22["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction22()" name="q22" value="0"> b) <?php  echo $row22["b"]; ?> <br>
+					<input type="radio" onclick="myFunction22()" name="q22" value="1"> c) <?php  echo $row22["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction22()" name="q22" value="0"> d) <?php  echo $row22["d"]; ?> <br>
 					<?php
 						}
@@ -422,8 +422,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row23["nu"].")".$row23["q"] ?></label><br>
 					<input type="radio" onclick="myFunction23()" name="q23" value="0"> a) <?php  echo $row23["a"]; ?><br>
-					<input type="radio" onclick="myFunction23()" name="q23" value="9"> b) <?php  echo $row23["b"]; ?> <br>
-					<input type="radio" onclick="myFunction23()" name="q23" value="0"> c) <?php  echo $row23["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction23()" name="q23" value="0"> b) <?php  echo $row23["b"]; ?> <br>
+					<input type="radio" onclick="myFunction23()" name="q23" value="1"> c) <?php  echo $row23["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction23()" name="q23" value="0"> d) <?php  echo $row23["d"]; ?> <br>
 					<?php
 						}
@@ -440,7 +440,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row24["nu"].")".$row24["q"] ?></label><br>
 					<input type="radio" onclick="myFunction24()" name="q24" value="0"> a) <?php  echo $row24["a"]; ?><br>
-					<input type="radio" onclick="myFunction24()" name="q24" value="9"> b) <?php  echo $row24["b"]; ?> <br>
+					<input type="radio" onclick="myFunction24()" name="q24" value="1"> b) <?php  echo $row24["b"]; ?> <br>
 					<input type="radio" onclick="myFunction24()" name="q24" value="0"> c) <?php  echo $row24["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction24()" name="q24" value="0"> d) <?php  echo $row24["d"]; ?> <br>
 					<?php
@@ -458,8 +458,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row25["nu"].")".$row25["q"] ?></label><br>
 					<input type="radio" onclick="myFunction25()" name="q25" value="0"> a) <?php  echo $row25["a"]; ?><br>
-					<input type="radio" onclick="myFunction25()" name="q25" value="9"> b) <?php  echo $row25["b"]; ?> <br>
-					<input type="radio" onclick="myFunction25()" name="q25" value="0"> c) <?php  echo $row25["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction25()" name="q25" value="0"> b) <?php  echo $row25["b"]; ?> <br>
+					<input type="radio" onclick="myFunction25()" name="q25" value="1"> c) <?php  echo $row25["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction25()" name="q25" value="0"> d) <?php  echo $row25["d"]; ?> <br>
 					<?php
 						}
@@ -475,8 +475,8 @@ include('../links/db_connect.php');
 											while($row26 = $result26->fetch_assoc()) {
 					?>					
 					<label><?php  echo "Q". $row26["nu"].")".$row26["q"] ?></label><br>
-					<input type="radio" onclick="myFunction26()" name="q26" value="0"> a) <?php  echo $row26["a"]; ?><br>
-					<input type="radio" onclick="myFunction26()" name="q26" value="9"> b) <?php  echo $row26["b"]; ?> <br>
+					<input type="radio" onclick="myFunction26()" name="q26" value="1"> a) <?php  echo $row26["a"]; ?><br>
+					<input type="radio" onclick="myFunction26()" name="q26" value="0"> b) <?php  echo $row26["b"]; ?> <br>
 					<input type="radio" onclick="myFunction26()" name="q26" value="0"> c) <?php  echo $row26["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction26()" name="q26" value="0"> d) <?php  echo $row26["d"]; ?> <br>
 					<?php
@@ -494,9 +494,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row27["nu"].")".$row27["q"] ?></label><br>
 					<input type="radio" onclick="myFunction27()" name="q27" value="0"> a) <?php  echo $row27["a"]; ?><br>
-					<input type="radio" onclick="myFunction27()" name="q27" value="9"> b) <?php  echo $row27["b"]; ?> <br>
+					<input type="radio" onclick="myFunction27()" name="q27" value="0"> b) <?php  echo $row27["b"]; ?> <br>
 					<input type="radio" onclick="myFunction27()" name="q27" value="0"> c) <?php  echo $row27["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction27()" name="q27" value="0"> d) <?php  echo $row27["d"]; ?> <br>
+					<input type="radio" onclick="myFunction27()" name="q27" value="1"> d) <?php  echo $row27["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
@@ -512,8 +512,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row28["nu"].")".$row28["q"] ?></label><br>
 					<input type="radio" onclick="myFunction28()" name="q28" value="0"> a) <?php  echo $row28["a"]; ?><br>
-					<input type="radio" onclick="myFunction28()" name="q28" value="9"> b) <?php  echo $row28["b"]; ?> <br>
-					<input type="radio" onclick="myFunction28()" name="q28" value="0"> c) <?php  echo $row28["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction28()" name="q28" value="0"> b) <?php  echo $row28["b"]; ?> <br>
+					<input type="radio" onclick="myFunction28()" name="q28" value="1"> c) <?php  echo $row28["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction28()" name="q28" value="0"> d) <?php  echo $row28["d"]; ?> <br>
 					<?php
 						}
@@ -530,9 +530,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row29["nu"].")".$row29["q"] ?></label><br>
 					<input type="radio" onclick="myFunction29()" name="q29" value="0"> a) <?php  echo $row29["a"]; ?><br>
-					<input type="radio" onclick="myFunction29()" name="q29" value="9"> b) <?php  echo $row29["b"]; ?> <br>
+					<input type="radio" onclick="myFunction29()" name="q29" value="0"> b) <?php  echo $row29["b"]; ?> <br>
 					<input type="radio" onclick="myFunction29()" name="q29" value="0"> c) <?php  echo $row29["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction29()" name="q29" value="0"> d) <?php  echo $row29["d"]; ?> <br>
+					<input type="radio" onclick="myFunction29()" name="q29" value="1"> d) <?php  echo $row29["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
@@ -548,9 +548,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row30["nu"].")".$row30["q"] ?></label><br>
 					<input type="radio" onclick="myFunction30()" name="q30" value="0"> a) <?php  echo $row30["a"]; ?><br>
-					<input type="radio" onclick="myFunction30()" name="q30" value="9"> b) <?php  echo $row30["b"]; ?> <br>
+					<input type="radio" onclick="myFunction30()" name="q30" value="0"> b) <?php  echo $row30["b"]; ?> <br>
 					<input type="radio" onclick="myFunction30()" name="q30" value="0"> c) <?php  echo $row30["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction30()" name="q30" value="0"> d) <?php  echo $row30["d"]; ?> <br>
+					<input type="radio" onclick="myFunction30()" name="q30" value="1"> d) <?php  echo $row30["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
@@ -566,9 +566,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row31["nu"].")".$row31["q"] ?></label><br>
 					<input type="radio" onclick="myFunction31()" name="q31" value="0"> a) <?php  echo $row31["a"]; ?><br>
-					<input type="radio" onclick="myFunction31()" name="q31" value="9"> b) <?php  echo $row31["b"]; ?> <br>
+					<input type="radio" onclick="myFunction31()" name="q31" value="0"> b) <?php  echo $row31["b"]; ?> <br>
 					<input type="radio" onclick="myFunction31()" name="q31" value="0"> c) <?php  echo $row31["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction31()" name="q31" value="0"> d) <?php  echo $row31["d"]; ?> <br>
+					<input type="radio" onclick="myFunction31()" name="q31" value="1"> d) <?php  echo $row31["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
@@ -584,8 +584,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row32["nu"].")".$row32["q"] ?></label><br>
 					<input type="radio" onclick="myFunction32()" name="q32" value="0"> a) <?php  echo $row32["a"]; ?><br>
-					<input type="radio" onclick="myFunction32()" name="q32" value="9"> b) <?php  echo $row32["b"]; ?> <br>
-					<input type="radio" onclick="myFunction32()" name="q32" value="0"> c) <?php  echo $row32["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction32()" name="q32" value="0"> b) <?php  echo $row32["b"]; ?> <br>
+					<input type="radio" onclick="myFunction32()" name="q32" value="1"> c) <?php  echo $row32["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction32()" name="q32" value="0"> d) <?php  echo $row32["d"]; ?> <br>
 					<?php
 						}
@@ -602,7 +602,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row33["nu"].")".$row33["q"] ?></label><br>
 					<input type="radio" onclick="myFunction33()" name="q33" value="0"> a) <?php  echo $row33["a"]; ?><br>
-					<input type="radio" onclick="myFunction33()" name="q33" value="9"> b) <?php  echo $row33["b"]; ?> <br>
+					<input type="radio" onclick="myFunction33()" name="q33" value="1"> b) <?php  echo $row33["b"]; ?> <br>
 					<input type="radio" onclick="myFunction33()" name="q33" value="0"> c) <?php  echo $row33["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction33()" name="q33" value="0"> d) <?php  echo $row33["d"]; ?> <br>
 					<?php
@@ -620,8 +620,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row34["nu"].")".$row34["q"] ?></label><br>
 					<input type="radio" onclick="myFunction34()" name="q34" value="0"> a) <?php  echo $row34["a"]; ?><br>
-					<input type="radio" onclick="myFunction34()" name="q34" value="9"> b) <?php  echo $row34["b"]; ?> <br>
-					<input type="radio" onclick="myFunction34()" name="q34" value="0"> c) <?php  echo $row34["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction34()" name="q34" value="0"> b) <?php  echo $row34["b"]; ?> <br>
+					<input type="radio" onclick="myFunction34()" name="q34" value="1"> c) <?php  echo $row34["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction34()" name="q34" value="0"> d) <?php  echo $row34["d"]; ?> <br>
 					<?php
 						}
@@ -638,8 +638,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row35["nu"].")".$row35["q"] ?></label><br>
 					<input type="radio" onclick="myFunction35()" name="q35" value="0"> a) <?php  echo $row35["a"]; ?><br>
-					<input type="radio" onclick="myFunction35()" name="q35" value="9"> b) <?php  echo $row35["b"]; ?> <br>
-					<input type="radio" onclick="myFunction35()" name="q35" value="0"> c) <?php  echo $row35["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction35()" name="q35" value="0"> b) <?php  echo $row35["b"]; ?> <br>
+					<input type="radio" onclick="myFunction35()" name="q35" value="1"> c) <?php  echo $row35["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction35()" name="q35" value="0"> d) <?php  echo $row35["d"]; ?> <br>
 					<?php
 						}
@@ -656,7 +656,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row36["nu"].")".$row36["q"] ?></label><br>
 					<input type="radio" onclick="myFunction36()" name="q36" value="0"> a) <?php  echo $row36["a"]; ?><br>
-					<input type="radio" onclick="myFunction36()" name="q36" value="9"> b) <?php  echo $row36["b"]; ?> <br>
+					<input type="radio" onclick="myFunction36()" name="q36" value="1"> b) <?php  echo $row36["b"]; ?> <br>
 					<input type="radio" onclick="myFunction36()" name="q36" value="0"> c) <?php  echo $row36["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction36()" name="q36" value="0"> d) <?php  echo $row36["d"]; ?> <br>
 					<?php
@@ -673,8 +673,8 @@ include('../links/db_connect.php');
 											while($row37 = $result37->fetch_assoc()) {
 					?>					
 					<label><?php  echo "Q". $row37["nu"].")".$row37["q"] ?></label><br>
-					<input type="radio" onclick="myFunction37()" name="q37" value="0"> a) <?php  echo $row37["a"]; ?><br>
-					<input type="radio" onclick="myFunction37()" name="q37" value="9"> b) <?php  echo $row37["b"]; ?> <br>
+					<input type="radio" onclick="myFunction37()" name="q37" value="1"> a) <?php  echo $row37["a"]; ?><br>
+					<input type="radio" onclick="myFunction37()" name="q37" value="0"> b) <?php  echo $row37["b"]; ?> <br>
 					<input type="radio" onclick="myFunction37()" name="q37" value="0"> c) <?php  echo $row37["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction37()" name="q37" value="0"> d) <?php  echo $row37["d"]; ?> <br>
 					<?php
@@ -691,8 +691,8 @@ include('../links/db_connect.php');
 											while($row38 = $result38->fetch_assoc()) {
 					?>					
 					<label><?php  echo "Q". $row38["nu"].")".$row38["q"] ?></label><br>
-					<input type="radio" onclick="myFunction38()" name="q38" value="0"> a) <?php  echo $row38["a"]; ?><br>
-					<input type="radio" onclick="myFunction38()" name="q38" value="9"> b) <?php  echo $row38["b"]; ?> <br>
+					<input type="radio" onclick="myFunction38()" name="q38" value="1"> a) <?php  echo $row38["a"]; ?><br>
+					<input type="radio" onclick="myFunction38()" name="q38" value="0"> b) <?php  echo $row38["b"]; ?> <br>
 					<input type="radio" onclick="myFunction38()" name="q38" value="0"> c) <?php  echo $row38["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction38()" name="q38" value="0"> d) <?php  echo $row38["d"]; ?> <br>
 					<?php
@@ -709,8 +709,8 @@ include('../links/db_connect.php');
 											while($row39 = $result39->fetch_assoc()) {
 					?>					
 					<label><?php  echo "Q". $row39["nu"].")".$row39["q"] ?></label><br>
-					<input type="radio" onclick="myFunction39()" name="q39" value="0"> a) <?php  echo $row39["a"]; ?><br>
-					<input type="radio" onclick="myFunction39()" name="q39" value="9"> b) <?php  echo $row39["b"]; ?> <br>
+					<input type="radio" onclick="myFunction39()" name="q39" value="1"> a) <?php  echo $row39["a"]; ?><br>
+					<input type="radio" onclick="myFunction39()" name="q39" value="0"> b) <?php  echo $row39["b"]; ?> <br>
 					<input type="radio" onclick="myFunction39()" name="q39" value="0"> c) <?php  echo $row39["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction39()" name="q39" value="0"> d) <?php  echo $row39["d"]; ?> <br>
 					<?php
@@ -728,7 +728,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row40["nu"].")".$row40["q"] ?></label><br>
 					<input type="radio" onclick="myFunction40()" name="q40" value="0"> a) <?php  echo $row40["a"]; ?><br>
-					<input type="radio" onclick="myFunction40()" name="q40" value="9"> b) <?php  echo $row40["b"]; ?> <br>
+					<input type="radio" onclick="myFunction40()" name="q40" value="1"> b) <?php  echo $row40["b"]; ?> <br>
 					<input type="radio" onclick="myFunction40()" name="q40" value="0"> c) <?php  echo $row40["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction40()" name="q40" value="0"> d) <?php  echo $row40["d"]; ?> <br>
 					<?php
@@ -746,9 +746,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row41["nu"].")".$row41["q"] ?></label><br>
 					<input type="radio" onclick="myFunction41()" name="q41" value="0"> a) <?php  echo $row41["a"]; ?><br>
-					<input type="radio" onclick="myFunction41()" name="q41" value="9"> b) <?php  echo $row41["b"]; ?> <br>
+					<input type="radio" onclick="myFunction41()" name="q41" value="0"> b) <?php  echo $row41["b"]; ?> <br>
 					<input type="radio" onclick="myFunction41()" name="q41" value="0"> c) <?php  echo $row41["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction41()" name="q41" value="0"> d) <?php  echo $row41["d"]; ?> <br>
+					<input type="radio" onclick="myFunction41()" name="q41" value="1"> d) <?php  echo $row41["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
@@ -764,9 +764,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row42["nu"].")".$row42["q"] ?></label><br>
 					<input type="radio" onclick="myFunction42()" name="q42" value="0"> a) <?php  echo $row42["a"]; ?><br>
-					<input type="radio" onclick="myFunction42()" name="q42" value="9"> b) <?php  echo $row42["b"]; ?> <br>
+					<input type="radio" onclick="myFunction42()" name="q42" value="0"> b) <?php  echo $row42["b"]; ?> <br>
 					<input type="radio" onclick="myFunction42()" name="q42" value="0"> c) <?php  echo $row42["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction42()" name="q42" value="0"> d) <?php  echo $row42["d"]; ?> <br>
+					<input type="radio" onclick="myFunction42()" name="q42" value="1"> d) <?php  echo $row42["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
@@ -782,8 +782,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row43["nu"].")".$row43["q"] ?></label><br>
 					<input type="radio" onclick="myFunction43()" name="q43" value="0"> a) <?php  echo $row43["a"]; ?><br>
-					<input type="radio" onclick="myFunction43()" name="q43" value="9"> b) <?php  echo $row43["b"]; ?> <br>
-					<input type="radio" onclick="myFunction43()" name="q43" value="0"> c) <?php  echo $row43["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction43()" name="q43" value="0"> b) <?php  echo $row43["b"]; ?> <br>
+					<input type="radio" onclick="myFunction43()" name="q43" value="1"> c) <?php  echo $row43["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction43()" name="q43" value="0"> d) <?php  echo $row43["d"]; ?> <br>
 					<?php
 						}
@@ -800,7 +800,7 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row44["nu"].")".$row44["q"] ?></label><br>
 					<input type="radio" onclick="myFunction44()" name="q44" value="0"> a) <?php  echo $row44["a"]; ?><br>
-					<input type="radio" onclick="myFunction44()" name="q44" value="9"> b) <?php  echo $row44["b"]; ?> <br>
+					<input type="radio" onclick="myFunction44()" name="q44" value="1"> b) <?php  echo $row44["b"]; ?> <br>
 					<input type="radio" onclick="myFunction44()" name="q44" value="0"> c) <?php  echo $row44["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction44()" name="q44" value="0"> d) <?php  echo $row44["d"]; ?> <br>
 					<?php
@@ -817,8 +817,8 @@ include('../links/db_connect.php');
 											while($row45 = $result45->fetch_assoc()) {
 					?>					
 					<label><?php  echo "Q". $row45["nu"].")".$row45["q"] ?></label><br>
-					<input type="radio" onclick="myFunction45()" name="q45" value="0"> a) <?php  echo $row45["a"]; ?><br>
-					<input type="radio" onclick="myFunction45()" name="q45" value="9"> b) <?php  echo $row45["b"]; ?> <br>
+					<input type="radio" onclick="myFunction45()" name="q45" value="1"> a) <?php  echo $row45["a"]; ?><br>
+					<input type="radio" onclick="myFunction45()" name="q45" value="0"> b) <?php  echo $row45["b"]; ?> <br>
 					<input type="radio" onclick="myFunction45()" name="q45" value="0"> c) <?php  echo $row45["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction45()" name="q45" value="0"> d) <?php  echo $row45["d"]; ?> <br>
 					<?php
@@ -836,9 +836,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row46["nu"].")".$row46["q"] ?></label><br>
 					<input type="radio" onclick="myFunction46()" name="q46" value="0"> a) <?php  echo $row46["a"]; ?><br>
-					<input type="radio" onclick="myFunction46()" name="q46" value="9"> b) <?php  echo $row46["b"]; ?> <br>
+					<input type="radio" onclick="myFunction46()" name="q46" value="0"> b) <?php  echo $row46["b"]; ?> <br>
 					<input type="radio" onclick="myFunction46()" name="q46" value="0"> c) <?php  echo $row46["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction46()" name="q46" value="0"> d) <?php  echo $row46["d"]; ?> <br>
+					<input type="radio" onclick="myFunction46()" name="q46" value="1"> d) <?php  echo $row46["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
@@ -854,8 +854,8 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row47["nu"].")".$row47["q"] ?></label><br>
 					<input type="radio" onclick="myFunction47()" name="q47" value="0"> a) <?php  echo $row47["a"]; ?><br>
-					<input type="radio" onclick="myFunction47()" name="q47" value="9"> b) <?php  echo $row47["b"]; ?> <br>
-					<input type="radio" onclick="myFunction47()" name="q47" value="0"> c) <?php  echo $row47["c"]; ?>  <br>
+					<input type="radio" onclick="myFunction47()" name="q47" value="0"> b) <?php  echo $row47["b"]; ?> <br>
+					<input type="radio" onclick="myFunction47()" name="q47" value="1"> c) <?php  echo $row47["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction47()" name="q47" value="0"> d) <?php  echo $row47["d"]; ?> <br>
 					<?php
 						}
@@ -872,9 +872,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row48["nu"].")".$row48["q"] ?></label><br>
 					<input type="radio" onclick="myFunction48()" name="q48" value="0"> a) <?php  echo $row48["a"]; ?><br>
-					<input type="radio" onclick="myFunction48()" name="q48" value="9"> b) <?php  echo $row48["b"]; ?> <br>
+					<input type="radio" onclick="myFunction48()" name="q48" value="0"> b) <?php  echo $row48["b"]; ?> <br>
 					<input type="radio" onclick="myFunction48()" name="q48" value="0"> c) <?php  echo $row48["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction48()" name="q48" value="0"> d) <?php  echo $row48["d"]; ?> <br>
+					<input type="radio" onclick="myFunction48()" name="q48" value="1"> d) <?php  echo $row48["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
@@ -889,8 +889,8 @@ include('../links/db_connect.php');
 											while($row49 = $result49->fetch_assoc()) {
 					?>					
 					<label><?php  echo "Q". $row49["nu"].")".$row49["q"] ?></label><br>
-					<input type="radio" onclick="myFunction49()" name="q49" value="0"> a) <?php  echo $row49["a"]; ?><br>
-					<input type="radio" onclick="myFunction49()" name="q49" value="9"> b) <?php  echo $row49["b"]; ?> <br>
+					<input type="radio" onclick="myFunction49()" name="q49" value="1"> a) <?php  echo $row49["a"]; ?><br>
+					<input type="radio" onclick="myFunction49()" name="q49" value="0"> b) <?php  echo $row49["b"]; ?> <br>
 					<input type="radio" onclick="myFunction49()" name="q49" value="0"> c) <?php  echo $row49["c"]; ?>  <br>
 					<input type="radio" onclick="myFunction49()" name="q49" value="0"> d) <?php  echo $row49["d"]; ?> <br>
 					<?php
@@ -908,9 +908,9 @@ include('../links/db_connect.php');
 					?>					
 					<label><?php  echo "Q". $row50["nu"].")".$row50["q"] ?></label><br>
 					<input type="radio" onclick="myFunction50()" name="q50" value="0"> a) <?php  echo $row50["a"]; ?><br>
-					<input type="radio" onclick="myFunction50()" name="q50" value="9"> b) <?php  echo $row50["b"]; ?> <br>
+					<input type="radio" onclick="myFunction50()" name="q50" value="0"> b) <?php  echo $row50["b"]; ?> <br>
 					<input type="radio" onclick="myFunction50()" name="q50" value="0"> c) <?php  echo $row50["c"]; ?>  <br>
-					<input type="radio" onclick="myFunction50()" name="q50" value="0"> d) <?php  echo $row50["d"]; ?> <br>
+					<input type="radio" onclick="myFunction50()" name="q50" value="1"> d) <?php  echo $row50["d"]; ?> <br>
 					<?php
 						}
 						 } else {}
